@@ -22,5 +22,6 @@
     washclother
     playing
     Dbms 
+    study DBms
 
     
