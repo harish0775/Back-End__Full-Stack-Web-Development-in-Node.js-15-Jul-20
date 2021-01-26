@@ -14,5 +14,6 @@ public class readingURL {
         while ((inputLine = in.readLine()) != null) 
             System.out.println(inputLine);
         in.close();
+        System.out.println("Connection is not found");
     }
 }
