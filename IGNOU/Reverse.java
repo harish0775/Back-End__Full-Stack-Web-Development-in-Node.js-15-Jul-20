@@ -31,6 +31,6 @@ public class Reverse {
         while ((decodedString = in.readLine()) != null) {
             System.out.println(decodedString);
         }
-        in.close();
+        in.close(); //close in
     }
-}
+} //
