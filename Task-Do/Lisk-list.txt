@@ -50,7 +50,7 @@
   Queue data structure study
   structure in java ignou study 
   DBMS study 
-  Exam Prepratioon
+  Exam Prepration
 
 26/january/2021
 
@@ -59,4 +59,11 @@ watch online Republic day
 watch Farmer protest 
 
 and study DBMs Lock phash Protocol 
+
+27/january/2021
+Prepration ignou Exam
+Study Anyasis algorithm
+system design
+
+2
     
