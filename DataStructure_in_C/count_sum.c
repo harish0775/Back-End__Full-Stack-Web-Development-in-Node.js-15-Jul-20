@@ -24,7 +24,7 @@
             }
             }
 
-            
+
             int count(struct Node *p)
             {
             int l=0;
