@@ -51,7 +51,7 @@
         {
         q=first;
         x=first->data;
-        first=first->next;
+        first=first->next;  
         free(q);
         return x;
         }
