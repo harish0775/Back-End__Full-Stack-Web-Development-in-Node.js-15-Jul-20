@@ -9,7 +9,7 @@
             Node *next;
             };
             class LinkedList
-            {
+            {  
             private:
             Node *first;
             public:
