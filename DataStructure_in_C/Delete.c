@@ -2,6 +2,7 @@
         #include <stdlib.h>
         struct Node
         {
+        
         int data;
         struct Node *next;
         }*first=NULL;
@@ -69,6 +70,20 @@
 
         }
 
+        
+        }
+        int isSorted(struct Node *p)
+        {
+        int x=-65536;
+        
+        while(p!=NULL)
+        {
+        if(p->data < x)
+        return 0;
+        x=p->data;
+        p=p->next;
+        }
+        return 1;
 
         }
         int main()
@@ -77,7 +92,7 @@
         int A[]={10,20,30,40,50};
         create(A,5);
 
-        printf(“%d\n",Delete(first),2);
+       // printf(“%d\n",Delete(first),2);
         Display(first);
 
         return 0;
