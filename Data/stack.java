@@ -1,4 +1,4 @@
-package Data;
+//package Data;
 
 // // Stack implementation in Java
 
@@ -75,60 +75,60 @@ package Data;
 
 
 
-public class stack {
-  Node head;
+// public class stack {
+//   Node head;
 
-  class Node{
-      int iteam;
-      Node  next;
+//   class Node{
+//       int iteam;
+//       Node  next;
 
-      Node(int d){
-          iteam =d;
-          next = null;
-      }
-  }
-// insert At Beginning
-public void insertAtBegnning(int data){
-    Node new_node = new Node(data);
-    new_node.next = head;
-    head = new_node;
-}
+//       Node(int d){
+//           iteam =d;
+//           next = null;
+//       }
+//   }
+// // insert At Beginning
+// public void insertAtBegnning(int data){
+//     Node new_node = new Node(data);
+//     new_node.next = head;
+//     head = new_node;
+// }
   
-  // insert After 
-public void insertAfter(Node prev_node ,int data){
-    if(prev_node == null){
-          System.out.println("The given prevoius node cannot be null");
-        return ;
-    }
-    Node new_node = new Node(data);
-    new_node.next = prev_node.next;
-    prev_node.next = new_node;
-}
-     //insertAtEnd
+//   // insert After 
+// public void insertAfter(Node prev_node ,int data){
+//     if(prev_node == null){
+//           System.out.println("The given prevoius node cannot be null");
+//         return ;
+//     }
+//     Node new_node = new Node(data);
+//     new_node.next = prev_node.next;
+//     prev_node.next = new_node;
+// }
+//      //insertAtEnd
 
-  public void insertAtEnd(int data){
-    Node new_node = new Node(data);
-    if(head == null){
-        head = new Node(data);
-        return;
-    }
-    new_node.next = null;
-    Node last = head;
-    while(last.next!= null)
-    last = last.next;
-    last.next = new_node;
-    return;
-  }
+//   public void insertAtEnd(int data){
+//     Node new_node = new Node(data);
+//     if(head == null){
+//         head = new Node(data);
+//         return;
+//     }
+//     new_node.next = null;
+//     Node last = head;
+//     while(last.next!= null)
+//     last = last.next;
+//     last.next = new_node;
+//     return;
+//   }
 
-    void deleteNode(int position){
-      if(head == null){
-        return ;
-      }
-      Node node = head;
-      if(position == 0;){
-        head = node
-      }
-    }
+//     void deleteNode(int position){
+//       if(head == null){
+//         return ;
+//       }
+//       Node node = head;
+//       if(position == 0;){
+//         head = node
+//       }
+//     }
 
 
 

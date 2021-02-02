@@ -100,7 +100,20 @@
                 }
             }
           }
-        int main()
+          void Reverse2(struct Node *p)
+          {
+              struct Node *q = NULL ,*r = NULL;
+              while(p!= NULL)
+              {
+                  r = q;
+                  q = p;
+                  p = p->next;
+                  q = q->next = r;
+              }
+              first = q;
+          }
+          
+                  int main()
         {
 
         int A[]={10,20,30,40,50};
