@@ -96,7 +96,7 @@
         create2(B,5);
 
 
-        Merge(frist,second);
+        Merge(first,second);
         Display(third);
 
         return 0;
