@@ -4,7 +4,7 @@
 //      private String detail;
 //      MyExClass(String a)
 //      {
-//          detail= a;
+//          detail= a; //
 //      } 
 //     }
 //     class ExceptionDemo{
