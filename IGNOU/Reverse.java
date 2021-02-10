@@ -5,7 +5,7 @@ import java.net.*;
 
 public class Reverse {
     public static void main(String[] args) throws Exception {
-
+  //main
         if (args.length != 2) {
             System.err.println("Usage:  java Reverse "
                 + "http://<location of your servlet/script>"
