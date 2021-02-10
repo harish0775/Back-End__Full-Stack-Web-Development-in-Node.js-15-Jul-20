@@ -6,7 +6,7 @@ import java.io.*;
 public class readingURL {
 
     public static void main(String[] args) throws Exception {
-        URL oracle = new URL("http://www.oracle.com/");
+        URL oracle = new URL("http://www.oracle.com/"); //web link
         URLConnection yc = oracle.openConnection();
         BufferedReader in = new BufferedReader(new InputStreamReader(
                                     yc.getInputStream()));
