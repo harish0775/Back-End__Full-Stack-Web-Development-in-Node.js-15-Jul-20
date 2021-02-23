@@ -119,5 +119,24 @@ playing batminton after long time
 exam prepation Java object oriented programming
 play batminton
 
+<<<<<<< HEAD
 
 // change modified
+=======
+20/Feb/2021
+
+Study statics  
+Preparation to go mathura
+
+21/Feb/2021
+
+Go mathura
+
+22/Feb/2021
+
+Enjoying in Mathura Morning to till afternoon.
+Enjoying in village in evening.
+
+
+ 
+>>>>>>> e186b676ee3a18c0ad8495bd9d1d9682f6937af6
