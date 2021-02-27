@@ -119,10 +119,8 @@ playing batminton after long time
 exam prepation Java object oriented programming
 play batminton
 
-<<<<<<< HEAD
-
 // change modified
-=======
+
 20/Feb/2021
 
 Study statics  
