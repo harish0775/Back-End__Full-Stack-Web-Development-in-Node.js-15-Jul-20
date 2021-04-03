@@ -157,4 +157,6 @@ add task
 26 /feb/2021
 
  Take exam 
->>>>>>> c274bdbcd72e63e2b17f840e0261d246a7373fe9
+>>>>>>> c274bdbcd72e63e2b17f840e0261d
+
+Hello 
