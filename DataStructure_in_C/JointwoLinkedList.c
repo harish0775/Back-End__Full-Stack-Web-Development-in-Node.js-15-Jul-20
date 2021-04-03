@@ -11,7 +11,7 @@
                 {
                 printf("%d ",p->data); 
                 p=p->next;
-                } 
+                }  
                 }
                 void create(int A[],int n) 
                 {
