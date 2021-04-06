@@ -13,7 +13,7 @@
                 p=p->next; 
                 }  
                 } 
-                void create(int A[],int n)  
+                void create(int A[],int n)   
                 {  
                 int i;
                 struct Node *t,*last;
