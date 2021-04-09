@@ -7,11 +7,11 @@
         }*first=NULL,*second=NULL,*third=NULL;
         void Display(struct Node *p)
         {
-        while(p!=NULL) 
+        while(p!=NULL)  
         {
         printf("%d ",p->data);
         p=p->next;
-        }
+        } 
         }
         void create(int A[],int n) 
         { 
