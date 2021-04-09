@@ -10,7 +10,7 @@
         while(p!=NULL)  
         { 
         printf("%d ",p->data);
-        p=p->next;
+        p=p->next; 
         } 
         }
         void create(int A[],int n) 
