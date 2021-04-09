@@ -8,7 +8,7 @@
         void Display(struct Node *p)
         {
         while(p!=NULL)  
-        {
+        { 
         printf("%d ",p->data);
         p=p->next;
         } 
