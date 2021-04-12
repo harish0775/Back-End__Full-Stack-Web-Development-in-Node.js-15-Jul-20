@@ -13,7 +13,7 @@ body {
   padding: 10px;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;  
 } 
 .search-container input {
