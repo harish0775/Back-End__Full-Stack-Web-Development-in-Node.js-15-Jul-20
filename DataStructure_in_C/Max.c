@@ -5,7 +5,7 @@
             int data;
             struct Node *next;
             }*first=NULL;
-            void create(int A[],int n)
+            void create(int A[],int n) 
             {
             int i;
             struct Node *t,*last;
