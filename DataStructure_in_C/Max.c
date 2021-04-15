@@ -12,7 +12,7 @@
             first=(struct Node *)malloc(sizeof(struct Node)); 
             first->data=A[0]; 
             first->next=NULL; 
-            last=first;
+            last=first; 
 
             for(i=1;i<n;i++)
             {
