@@ -4,7 +4,7 @@
             {
             int data;
             struct Node *next;
-            }*first=NULL;
+            }*first=NULL; 
             void create(int A[],int n) 
             {
             int i;
