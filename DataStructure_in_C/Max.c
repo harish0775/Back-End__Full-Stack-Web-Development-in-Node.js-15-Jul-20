@@ -11,7 +11,7 @@
             struct Node *t,*last;
             first=(struct Node *)malloc(sizeof(struct Node)); 
             first->data=A[0]; 
-            first->next=NULL;
+            first->next=NULL; 
             last=first;
 
             for(i=1;i<n;i++)
