@@ -20,7 +20,7 @@
             t->data=A[i];
             t->next=NULL;
             last->next=t;
-            last=t;
+            last=t; 
             }
             }
             int Max(struct Node *p)
