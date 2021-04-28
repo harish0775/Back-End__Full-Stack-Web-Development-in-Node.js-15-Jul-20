@@ -19,7 +19,7 @@
             t=(struct Node*)malloc(sizeof(struct Node));
             t->data=A[i];
             t->next=NULL;
-            last->next=t;  
+            last->next=t;   
             last=t;  
             }
             }
