@@ -14,7 +14,7 @@
             first->next=NULL;     
             last=first;  
 
-            for(i=1;i<n;i++)
+            for(i=1;i<n;i++) 
             {
             t=(struct Node*)malloc(sizeof(struct Node));
             t->data=A[i];
