@@ -11,7 +11,7 @@
             class LinkedList
             {  
             private:
-            Node *first;
+            Node *first; 
             public:
             LinkedList(){first=NULL;}
             LinkedList(int A[],int n);
