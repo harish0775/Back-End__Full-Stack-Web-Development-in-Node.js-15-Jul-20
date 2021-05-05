@@ -13,7 +13,7 @@
             private:
             Node *first; 
             public:
-            LinkedList(){first=NULL;}
+            LinkedList(){first=NULL;} 
             LinkedList(int A[],int n);
             ~LinkedList();
 
