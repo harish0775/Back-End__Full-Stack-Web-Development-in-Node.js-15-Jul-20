@@ -2,7 +2,7 @@
              #include <stdio.h> 
             #include <stdlib.h>
             using namespace std;
-            class Node
+            class Node 
             {
             public: 
             int data;
