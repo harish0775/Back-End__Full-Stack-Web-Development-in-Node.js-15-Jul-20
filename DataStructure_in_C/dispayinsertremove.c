@@ -8,7 +8,7 @@
             int data;
             Node *next;
             };
-            class LinkedList
+            class LinkedList 
             {  
             private:
             Node *first; 
