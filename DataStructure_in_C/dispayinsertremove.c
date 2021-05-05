@@ -15,7 +15,7 @@
             public:
             LinkedList(){first=NULL;} 
             LinkedList(int A[],int n);
-            ~LinkedList(); 
+            ~LinkedList();  
 
             void Display(); 
             void Insert(int index,int x);
