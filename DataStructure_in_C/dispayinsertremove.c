@@ -1,10 +1,10 @@
-            #include <iostream>
+            #include <iostream.h>
              #include <stdio.h> 
             #include <stdlib.h>
             using namespace std;
             class Node
             {
-            public:
+            public: 
             int data;
             Node *next;
             };
