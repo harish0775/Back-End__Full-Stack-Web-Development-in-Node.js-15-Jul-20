@@ -17,7 +17,7 @@
             LinkedList(int A[],int n);
             ~LinkedList(); 
 
-            void Display();
+            void Display(); 
             void Insert(int index,int x);
             int Delete(int index);
             int Length();
