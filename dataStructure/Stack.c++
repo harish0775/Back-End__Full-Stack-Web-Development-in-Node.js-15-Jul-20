@@ -17,7 +17,7 @@
 // void createEmptyStack(st *s) {
 //   s->top = -1;
 // }
-
+  
 // // Check if the stack is full
 // int isfull(st *s) {
 //   if (s->top == MAX - 1)
