@@ -20,7 +20,7 @@
   
 // // Check if the stack is full
 // int isfull(st *s) {
-//   if (s->top == MAX - 1)
+//   if (s->top == MAX - 1) 
 //     return 1;
 //   else
 //     return 0;
@@ -77,7 +77,7 @@
 //   push(s, 2);
 //   push(s, 3);
 //   push(s, 4);
-
+  
 //   printStack(s);
 
 //   pop(s);
