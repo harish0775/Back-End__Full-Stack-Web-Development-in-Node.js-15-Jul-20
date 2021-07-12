@@ -8,7 +8,7 @@
 // int count = 0;
 
 // // Creating a stack
-// struct stack {
+// struct stack { 
 //   int items[MAX];
 //   int top;
 // };
