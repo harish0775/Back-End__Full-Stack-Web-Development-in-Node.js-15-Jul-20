@@ -24,7 +24,7 @@
 //     return 1;
 //   else
 //     return 0;
-// }
+// } 
 
 // // Check if the stack is empty
 // int isempty(st *s) {
