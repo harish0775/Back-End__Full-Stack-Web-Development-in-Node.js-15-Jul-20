@@ -10,7 +10,7 @@
 // // Creating a stack
 // struct stack { 
 //   int items[MAX];
-//   int top;
+//   int top; 
 // };
 // typedef struct stack st;
 
