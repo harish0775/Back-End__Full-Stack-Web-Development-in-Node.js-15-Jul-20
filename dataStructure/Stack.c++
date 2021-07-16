@@ -1,6 +1,6 @@
 // // Stack implementation in C
 
-// #include <stdio.h>
+// #include <stdio.h> 
 // #include <stdlib.h> 
 
 // #define MAX 10
