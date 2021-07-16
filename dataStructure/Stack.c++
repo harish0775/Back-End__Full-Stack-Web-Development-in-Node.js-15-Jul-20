@@ -31,7 +31,7 @@
 //   if (s->top == -1)
 //     return 1;
 //   else
-//     return 0;
+//     return 0; 
 // }
 
 // // Add elements into stack
