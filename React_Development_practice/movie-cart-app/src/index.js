@@ -3,23 +3,18 @@ import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 
 import App from './components/App';
+import movies from './reducers/movies';
 import './index.css';
-import movies from './reducers';
 
-const store = createStore(movies)
+const store = createStore(movies);
+// console.log(store);
+// console.log('state', store.getState());
 
-console.log('store',store);
-console.log('Before-STORE',store.getState());
+// // update store by dispatching actions
+// store.dispatch({
+//   type: 'ADD_MOVIES',
+//   movies: moviesList
+// });
+// console.log('state', store.getState());
 
-store.dispatch({
-    type : 'ADD Movie',
-    movie : [{name : 'Superman'}]
-})
-console.log('Afer-STORE',store.getState());
-
-
-ReactDOM.render(<App/>, document.getElementById('root'));
-
-
-
-
+ReactDOM.render(<App store={store} />, document.getElementById('root'));
