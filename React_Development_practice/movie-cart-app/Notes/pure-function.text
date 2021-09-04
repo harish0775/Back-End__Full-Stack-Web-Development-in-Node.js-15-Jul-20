@@ -1,0 +1,23 @@
+ 1. pure Function
+
+  var a = 11;
+ function x(a){
+
+ }
+//pure Function
+function findtax(y){
+    return (y*0.2) +y
+}
+findtax(100);
+
+ output:120
+ :: Not mattter how many to call function
+]
+
+ //inpure function
+
+var tax = 23;
+ function findtax(y){
+    return (price * tax/100)) +y
+}
+findtax(100);
