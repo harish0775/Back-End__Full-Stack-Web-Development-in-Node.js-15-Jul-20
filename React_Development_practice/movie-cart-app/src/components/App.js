@@ -13,7 +13,7 @@ function App(props) {
           <div className="tab">Movies</div>
           <div className="tab">Favourites</div>
         </div>
-
+              
         <div id="list">
           {movies.map((movie,index) => (
             <MovieCard movie={movie} key ={`movies-${index}`} />
@@ -25,3 +25,5 @@ function App(props) {
 }
 
 export default App;
+
+
